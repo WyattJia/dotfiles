@@ -6,7 +6,6 @@
 !.bash_profile
 !.emacs
 !.emacs.d
-!.gitconfig
 !.gitignore
 !.hex
 !.vimrc
