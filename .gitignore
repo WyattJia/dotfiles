@@ -9,7 +9,7 @@
 !.hex
 !.vimrc
 !.zprofile
-!.emacs.d/auto-save-list/*
-!.emacs.d/games/tetris-scores
-!.emacs.d/init.el
+!./.emacs.d/auto-save-list/*
+!./.emacs.d/games/tetris-scores
+!./.emacs.d/init.el
 
