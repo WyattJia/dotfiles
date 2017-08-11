@@ -5,11 +5,11 @@
 
 !.bash_profile
 !.emacs
-!.emacs.d/
 !.gitignore
 !.hex
 !.vimrc
 !.zprofile
-!auto-save-list/
-!games/
+!.emacs.d/auto-save-list/*
+!.emacs.d/games/tetris-scores
+!.emacs.d/init.el
 
