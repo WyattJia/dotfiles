@@ -11,6 +11,7 @@
 !.hex
 !.vimrc
 !.zprofile
+!.ShadowsocksX-NG/*
 # !./.emacs.d/auto-save-list/*
 # !./.emacs.d/games/tetris-scores
 # !./.emacs.d/init.el
