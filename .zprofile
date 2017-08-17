@@ -26,6 +26,3 @@ export PATH="/Library/PostgreSQL/9.6/bin/:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
-
-# pwdx for macOS
-# function pwdx { lsof -a -p ( -d cwd -n | tail -1 | awk '{print $NF}' })
