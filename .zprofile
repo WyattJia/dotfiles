@@ -26,3 +26,6 @@ export PATH="/Library/PostgreSQL/9.6/bin/:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
+# for algs4
+export CLASSPATH=$CLASSPATH:/usr/local/algs4/stdlib.jar:/usr/local/algs4/algs4.jar
+
