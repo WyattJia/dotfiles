@@ -59,3 +59,22 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry
+
+
+" 只有支持autocommands时会执行这部分代码.
+if has("autocmd")
+    " 使用文件类型检查和基于文件的自动缩紧
+    filetype plugin indent on
+ 
+    " Makefiles 文件中tab使用长度8.
+    autocmd FileType make set tabstop=8 shiftwidth=8 softtabstop=0 noexpandtab
+endif
+ 
+" 对于其它情况，使用4个空格宽度的TAB
+set tabstop=4       " TAB的宽度被设置为4个空格.
+                    " 但仍然是t. 只是vim把它解释成4个空格宽度，用别的编辑器还是t符号
+                    " Vim will interpret it to be having
+                    " a width of 4.
+set shiftwidth=4    " 缩进使用4个空格的宽度.
+set softtabstop=4   " 设置tab所占的列数，当输入tab时，设为4个空格的宽度.
+set expandtab       " 扩展tab为空格.
