@@ -10,3 +10,4 @@ alias install='j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo 
 
 # Format json by Python
 alias pp='python -mjson.tool | pygmentize -l javascript' 
+source ~/.profile
