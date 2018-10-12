@@ -2,6 +2,8 @@
 # added by Anaconda3 4.4.0 installer
 export PATH="/anaconda/bin:$PATH"
 
+export PATH="$PATH:/Users/jiaweichuan/Desktop/istio-1.0.0/bin"
+
 # pwdx for macOS
 # function pwdx { lsof -a -p ( -d cwd -n | tail -1 | awk '{print $NF}' )}
 
@@ -10,4 +12,4 @@ alias install='j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo 
 
 # Format json by Python
 alias pp='python -mjson.tool | pygmentize -l javascript' 
-source ~/.profile
+source ~/.zprofile
