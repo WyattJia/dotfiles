@@ -1,0 +1,21 @@
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+ruslanspivak.com
+redis.io
+yarnpkg.com
+github.io
+wanqu.co
+*.coursera.org
+*.lintcode.com
+*.avos.pw
+*.avgle.com
+*.github.com
+*.gitbooks.io
+*.mozilla.org
+*. githubusercontent.com
+*.v2ex.com
+*.eventloop.live
+*.quora.com
+*.reddit.com
+*.geeksforgeeks.org
+!*.hupu.com
