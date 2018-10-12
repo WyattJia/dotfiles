@@ -14,6 +14,7 @@
 !.vim/
 !.ShadowsocksX-NG/*
 !updrade_dotfiles.sh
+!localpage/
 # !./.emacs.d/auto-save-list/*
 # !./.emacs.d/games/tetris-scores
 # !./.emacs.d/init.el
