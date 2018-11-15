@@ -22,6 +22,8 @@ var rules = [
   "*.quora.com",
   "*.reddit.com",
   "*.geeksforgeeks.org",
+  "*.latex.org",
+  "*.overleaf.com",
   "|http:\/\/85.17.73.31\/",
   "||agnesb.fr",
   "||akiba-web.com",

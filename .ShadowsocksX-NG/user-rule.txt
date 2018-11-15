@@ -19,3 +19,5 @@ wanqu.co
 *.reddit.com
 *.geeksforgeeks.org
 !*.hupu.com
+*.latex.org
+*.overleaf.com
