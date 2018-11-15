@@ -24,7 +24,7 @@ set nocompatible              " be iMproved, required
  " Git plugin not hosted on GitHub
  Plugin 'git://git.wincent.com/command-t.git'
  " git repos on your local machine (i.e. when working on your own plugin)
- Plugin 'file:///home/gmarik/path/to/plugin'
+ "" Plugin 'file:///home/gmarik/path/to/plugin'
  " The sparkup vim script is in a subdirectory of this repo called vim.
  " Pass the path to set the runtimepath properly.
  " Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -32,6 +32,8 @@ set nocompatible              " be iMproved, required
  " different version somewhere else.
  " Plugin 'ascenator/L9', {'name': 'newL9'}
 
+ Plugin 'lervag/vimtex'
+ "for latex
 
 " All of your Plugins must be added before the following line
  call vundle#end()            " required
