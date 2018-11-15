@@ -7,17 +7,14 @@ github.io
 wanqu.co
 *.coursera.org
 *.lintcode.com
-*.avos.pw
-*.avgle.com
 *.github.com
 *.gitbooks.io
 *.mozilla.org
-*. githubusercontent.com
+*.githubusercontent.com
 *.v2ex.com
 *.eventloop.live
 *.quora.com
 *.reddit.com
 *.geeksforgeeks.org
-!*.hupu.com
 *.latex.org
 *.overleaf.com
