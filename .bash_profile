@@ -13,3 +13,10 @@ alias install='j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo 
 # Format json by Python
 alias pp='python -mjson.tool | pygmentize -l javascript' 
 source ~/.zprofile
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
+export http_proxy=127.0.0.1:1080
+export https_proxy=127.0.0.1:1080
+# exprot no_proxy=localhost, 127.0.0.1, *.my.lan

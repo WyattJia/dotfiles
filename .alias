@@ -1,1 +1,2 @@
+# Open with gome nautilus (gnome file manager)
 alias open="desktop-launch"
