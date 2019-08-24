@@ -19,5 +19,7 @@
 # !./.emacs.d/games/tetris-scores
 # !./.emacs.d/init.el
 !sync.sh
+!aria2.conf
 
 .vim/bundle/
+
