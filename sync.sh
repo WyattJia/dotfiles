@@ -8,3 +8,4 @@ cp ../.profile .
 
 cp -r ../.vim .
 cp -r ~/.config/i3 .
+cp -r ~/.config/polybar .

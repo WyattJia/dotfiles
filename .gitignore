@@ -16,6 +16,7 @@
 !updrade_dotfiles.sh
 !localpage/
 !i3/
+!polybar/
 # !./.emacs.d/auto-save-list/*
 # !./.emacs.d/games/tetris-scores
 # !./.emacs.d/init.el
