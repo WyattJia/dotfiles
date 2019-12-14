@@ -15,6 +15,7 @@
 !.ShadowsocksX-NG/*
 !updrade_dotfiles.sh
 !localpage/
+!i3/
 # !./.emacs.d/auto-save-list/*
 # !./.emacs.d/games/tetris-scores
 # !./.emacs.d/init.el
