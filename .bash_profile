@@ -16,7 +16,11 @@ source ~/.zprofile
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
+export PATH="~/.config/i3/i3exit:$PATH"
+
 
 export http_proxy=127.0.0.1:1080
 export https_proxy=127.0.0.1:1080
 # exprot no_proxy=localhost, 127.0.0.1, *.my.lan
+
+export MONITOR="override-value polybar mybar"
