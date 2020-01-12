@@ -54,7 +54,7 @@ gaps outer 2
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i=/home/wells/Pictures/wallpaper/lock/lock.png
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i=/home/wells/Pictures/wallpaper/lock/lock.jpg
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -151,16 +151,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:Home"
-set $ws2 "2:Files"
-set $ws3 "3:Web"
-set $ws4 "4:Code"
-set $ws5 "5:Settings"
-set $ws6 "6:Misc"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "1:壹"
+set $ws2 "2:貳"
+set $ws3 "3:叄"
+set $ws4 "4:肆"
+set $ws5 "5:伍"
+set $ws6 "6:陸"
+set $ws7 "7:柒"
+set $ws8 "8:捌"
+set $ws9 "9:玖"
+set $ws10 "10:拾"
 
 assign [class="google-chrome"]   $ws3
 for_window [class="netease-cloud-music"]    floating enable
@@ -260,9 +260,12 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # finds out, if available)
 bar {
   	status_command i3status
-    position top
+    position top 
+    tray_output primary 
+    font pango:Noto Sans Mono 13
+    strip_workspace_numbers yes
 	colors {
-		background $bg-color
+        background $bg-color
 	    separator #757575
 		#                  border             background         text
 		focused_workspace  $bg-color          $bg-color          $text-color
@@ -273,23 +276,7 @@ bar {
 }
 
 
-# bar {
-#     i3bar_command i3bar -t
-#     status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#     position top 
-#     colors {
-#         background #a02f343f
-#         separator #757575
-#         #                  border             background         text
-#         focused_workspace  #a02f343f          #a02f343f          #a0f3f4f5 
-#         inactive_workspace #a02f343f #a02f343f #f3f4f5
-#         urgent_workspace   #a0e53935 #a0e53935    #f3f4f5
-#     }   
-# }
-
 hide_edge_borders both 
-
-
 
 # sleep after 900seconds(15mins)
 exec --no-startup-id xset dpms 900
