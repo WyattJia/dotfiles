@@ -27,6 +27,8 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+set backupdir^=~/tmp,/tmp
+
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
@@ -671,3 +673,4 @@ set colorcolumn=81
 
 highlight ColorColumn ctermbg=8
 
+execute pathogen#infect()
