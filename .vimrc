@@ -90,8 +90,8 @@ endif " has("autocmd")
 " Metadata: {{{
     set nocompatible
     set title
-    let g:Header_name="Yichun Zhang"
-    let g:Header_email="agentzh@gmail.com"
+    let g:Header_name="Wells Jia"
+    let g:Header_email="i@eventloop.live"
 " }}}
 " Encodings: {{{
     set termencoding=utf-8
@@ -703,7 +703,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'cespare/vim-toml'
- 
+Plugin 'scrooloose/vim-slumlord'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
