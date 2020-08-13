@@ -1,3 +1,6 @@
+# Open with gnome nautilus (gnome file manager)
+# alias open="desktop-launch"
+
 alias yay="brew"
 
 alias cat="ccat"
