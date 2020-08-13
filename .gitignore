@@ -25,3 +25,5 @@
 
 .vim/bundle/
 
+local_to_remote.sh
+remote_to_local.sh
