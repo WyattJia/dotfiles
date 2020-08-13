@@ -23,7 +23,5 @@
 !sync.sh
 !aria2.conf
 
-.vim/bundle/
-
 local_to_remote.sh
 remote_to_local.sh

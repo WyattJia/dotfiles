@@ -6,6 +6,5 @@ cp .zprofile             ~/.zprofile
 cp .zshrc                ~/.zshrc
 cp .profile              ~/.profile
 
-cp -r .vim/              ~/
 cp -r i3/                ~/.config/
 cp -r polybar/           ~/.config/
