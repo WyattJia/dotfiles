@@ -33,3 +33,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="$PATH:/Users/wells/Workspace/depot_tools"
 
+# for manually install gradle on macOS 11.0
+export PATH=$PATH:/opt/gradle/gradle-6.6/bin
+
