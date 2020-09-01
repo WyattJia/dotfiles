@@ -1,6 +1,6 @@
 " An example for a vimrc file.
 "
-" Maintainer:	Yichun Zhang <yichun@openresty.com>
+" Maintainer:	Wellls Jia<i@eventloop.live>
 " Credit: Bram Moolenaar <Bram@vim.org> and Audrey Tang
 " Last change:	2019 Aug 19
 "
@@ -533,7 +533,7 @@ cmap cv! ConqueTermVSplit bash
 cmap ct! ConqueTerm bash
 cmap spell! setlocal spell spelllang=en_us
 
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 
 "au BufNewFile,BufRead *.edge setf edge
 au BufRead,BufNewFile *.edge set filetype=edge
@@ -711,6 +711,8 @@ Plugin 'aklt/plantuml-syntax'
 Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'udalov/kotlin-vim'
+
+Bundle 'wellle/context.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
