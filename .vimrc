@@ -622,8 +622,8 @@ endif " has("autocmd")
 " Metadata: {{{
     set nocompatible
     set title
-    let g:Header_name="Yichun Zhang"
-    let g:Header_email="agentzh@gmail.com"
+    let g:Header_name="Wellls"
+    let g:Header_email="i@eventloop.live"
 " }}}
 " Encodings: {{{
     set termencoding=utf-8
