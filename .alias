@@ -3,3 +3,4 @@
 
 alias cat="ccat"
 
+alias python="python3"
