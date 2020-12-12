@@ -1,6 +1,8 @@
 # Open with gnome nautilus (gnome file manager)
 # alias open="desktop-launch"
 
-alias cat="ccat"
+
+# hidden ccat alias; because homebrew not support arm64 complete yet.
+## alias cat="ccat"
 
 alias python="python3"
