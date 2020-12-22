@@ -12,7 +12,6 @@ export PATH
 # for algs4
 export CLASSPATH=$CLASSPATH:/usr/local/algs4/stdlib.jar:/usr/local/algs4/algs4.jar
 
-export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="$PATH:/Users/wells/Workspace/depot_tools"
 
