@@ -4,7 +4,6 @@ cp .emacs                ~/.emacs
 cp .vimrc                ~/.vimrc
 cp .zprofile             ~/.zprofile
 cp .zshrc                ~/.zshrc
-cp .profile              ~/.profile
 
 cp -r i3/                ~/.config/
 cp -r polybar/           ~/.config/
