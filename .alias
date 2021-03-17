@@ -3,7 +3,7 @@
 
 
 # hidden ccat alias; because homebrew not support arm64 complete yet.
-## alias cat="ccat"
+alias cat="ccat"
 
 alias python="python3"
 alias code="code-exploration"
