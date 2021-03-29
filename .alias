@@ -1,9 +1,8 @@
 # Open with gnome nautilus (gnome file manager)
 # alias open="desktop-launch"
 
-
-# hidden ccat alias; because homebrew not support arm64 complete yet.
 alias cat="ccat"
 
-alias python="python3"
-alias code="code-exploration"
+alias lgo="CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build"
+# alias python="python3"
+# alias code="code-exploration"
