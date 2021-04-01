@@ -23,6 +23,6 @@
 !sync.sh
 !aria2.conf
 
-local_to_remote.sh
-remote_to_local.sh
-tools.dockerfile
+!local_to_remote.sh
+!remote_to_local.sh
+!tools.dockerfile
