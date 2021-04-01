@@ -5,8 +5,8 @@ RUN apt update && apt install -y zsh curl git && sh -c "$(curl -fsSL https://raw
 RUN apt install -y sysstat net-tools
 
 RUN echo "deb [trusted=yes] https://repo.iovisor.org/apt/xenial xenial-nightly main" | \
-    sudo tee /etc/apt/sources.list.d/iovisor.list
+    tee /etc/apt/sources.list.d/iovisor.list
 
-RUN apt update && apt install bcc-tools
+RUN apt update && apt install -y bcc-tools
 
 CMD ["/bin/zsh"]
