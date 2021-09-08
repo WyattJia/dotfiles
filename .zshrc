@@ -112,3 +112,5 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH=/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
 export PATH="/opt/homebrew/opt/krb5/bin:$PATH"
 export PATH="/opt/homebrew/opt/krb5/sbin:$PATH"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
