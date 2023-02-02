@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "8309cce704cf8252",
+    "type": "split",
+    "children": [
+      {
+        "id": "593965b30386556b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d2705b599e2e693",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "okr_object_tasks/MPP/查询引擎的模块实现.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c36e7453f68a372f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5ad53d74e32b71bc",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "b6748ff7f40f9cc2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c433fc489157c098",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "68dfbea44df4b7bb",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3bce2a7db97ec737",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "028087ee03f646f3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "okr_object_tasks/MPP/查询引擎的模块实现.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e0207f883c0a364e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "okr_object_tasks/MPP/查询引擎的模块实现.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0eaab7d371c5a050",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "okr_object_tasks/MPP/查询引擎的模块实现.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "8d2705b599e2e693",
+  "lastOpenFiles": [
+    "Pasted image 20230131153425.png",
+    "okr_object_tasks/OSS/元数据优化.md",
+    "okr_object_tasks/MPP/MPP 整体架构和概念.md",
+    "okr_object_tasks/OSS/OSS 背景，相比传统 FS 的优势，为什么引入分布式文件系统.md"
+  ]
+}
